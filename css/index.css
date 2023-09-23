@@ -1,0 +1,126 @@
+.container-main {
+    width: 990px;
+    margin-left: 300px;
+}
+
+.active {
+    display: block;
+}
+
+.visi {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container-card {
+    margin-top: 100px;
+    visibility: hidden;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 90px;
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 8px #888888;
+}
+
+.img-troll {
+    width: 200px;
+    height: 175px;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-yes {
+    background: rgb(8, 172, 8);
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.btn-no {
+    background: red;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.btn-quest {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.btn-play {
+    background: rgb(8, 172, 8);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-refuse {
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.btn-yes,
+.btn-no,
+.btn-play,
+.btn-refuse,
+.btn-troll {
+    font-size: 20px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-yes:hover,
+.btn-no:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.img-meo {
+    margin-top: 50px;
+    margin-left: 25%;
+    height: 450px;
+    width: 450px;
+}
+
+
+/* css overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-main">
+        <h1>Chào em :v Trước khi vào phần chính thì chúng ta sẽ cùng nhau trả lời một câu hỏi nho nhỏ =))</h1>
+
+        <div class="container-quest active">
+            <div class="btn-quest visi">
+                <button class="btn-play">Oke luôn</button>
+                <button class="btn-refuse">Không thích chơi</button>
+            </div>
+    
+            <img src="./img/meo.jpg" class="img-meo"/>
+        </div>
+
+        <div class="contai visi">
+            <div class="container-card"></div>
+                <div class="card">
+                    <h2 class="question-card">Vào ngày sinh nhật của em thì cảm thấy hạnh phúc không?</h2>
+                    <div class="troll">
+                        <button class="btn-troll visi">Nhấn vào đây để bỏ không cần trả lời 🐧</button>
+                        <img src="./img/Trollface.png" class="img-troll">
+                    </div>
+                    <div class="btn">
+                        <button class="btn-yes">Rất hạnh phúc</button>
+                        <button class="btn-no">Chẳng vui tý nào</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <h2>🙄 Thật ra thì chả có nút nào bấm được cả, anh troll xíu thôi. Giờ vào phần chính đây!!<br>
+                Em thấy ô bên dưới chứ, hãy nhập vào đó mật khẩu để em có thể tiếp tục! Chúc em may mắn 😎<br>
+                Gợi ý: pass gồm 4 số, nhấn Enter sau khi nhập pass(em thừa biết nó là bốn số nào mà :v)
+            </h2>
+            <input type="password" id="passwordInput" placeholder="Nhập mật khẩu">
+            <p id="message"></p>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
